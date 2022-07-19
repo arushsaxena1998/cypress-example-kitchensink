@@ -1,42 +1,56 @@
-# Cypress Cloud  ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
+# Run Cypress Tests On LambdaTest ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
+<img height="500" class ="centre" src="https://user-images.githubusercontent.com/70570645/171032160-65d8a2c3-e04b-482d-b1c6-538b75be5fb0.png">
 
-![cypress-logo](https://user-images.githubusercontent.com/70570645/169593225-1b5e5831-54a6-4a54-bbc1-a37bc44d15cc.png)
+<p align="center">
+  <a href="https://www.lambdatest.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=cypress-cloud" target="_bank">Blog</a>
+  &nbsp; &#8901; &nbsp;
+  <a href="https://www.lambdatest.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=cypress-cloud" target="_bank">Docs</a>
+  &nbsp; &#8901; &nbsp;
+  <a href="https://www.lambdatest.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=cypress-cloud" target="_bank">Learning Hub</a>
+  &nbsp; &#8901; &nbsp;
+  <a href="https://www.lambdatest.com/newsletter/?utm_source=github&utm_medium=repo&utm_campaign=cypress-cloud" target="_bank">Newsletter</a>
+  &nbsp; &#8901; &nbsp;
+  <a href="https://www.lambdatest.com/certifications/?utm_source=github&utm_medium=repo&utm_campaign=cypress-cloud" target="_bank">Certifications</a>
+  &nbsp; &#8901; &nbsp;
+  <a href="https://www.youtube.com/c/LambdaTest" target="_bank">YouTube</a>
+</p>
+&emsp;
+&emsp;
+&emsp;
 
-*Cypress is a modern web front-end testing tool built with JavaScript Mocha. Cypress testing operates directly on the browsers without the need for Selenium. Its unique DOM manipulation technique makes it a very developer and QA-friendly tool. With LambdaTest, you can perform Cypress testing on an online automation cloud of 40+ browsers versions.* 
+*Learn how to get started with Cypress testing on the LambdaTest platform 🚀*
 
-*Learn how to [get started with Cypress testing on the LambdaTest platform](https://www.lambdatest.com/support/docs/getting-started-with-cypress-testing/).*
+[<img height="70" width="220" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
 
-## Table of Contents:
-***
+## Table of Contents 🗏
+
 
 * [Pre-requisites](#pre-requisites)
-* [Running Your First Cypress Test On LambdaTest Platform](#running-your-first-cypress-test-on-lambdatest-platform)
-* [Local Testing With Cypress](#running-your-cypress-tests-locally-on-lambdatest-platform)
+* [Running Your First Cypress Test On LambdaTest Platform](#running-your-first-cypress-test-on-lambdatest)
+* [Local Testing With Cypress](#running-your-cypress-tests-locally)
 * [Authentication](#authentication)
-* [Cypress Parallel Testing](https://github.com/LambdaTest/cypress-example-kitchensink/blob/master/cypress-docs/parallel-testing.md)
-* [Specify Browsers And OS](https://github.com/LambdaTest/cypress-example-kitchensink/blob/master/cypress-docs/supported-browsers-os.md)
-* [Supported Cypress Versions](https://github.com/LambdaTest/cypress-example-kitchensink/blob/master/cypress-docs/supported-cypress-versions.md)
-* [Cypress CLI Commands](https://github.com/LambdaTest/cypress-example-kitchensink/blob/master/cypress-docs/cypress-cli.md)
-* [Run Settings](https://github.com/LambdaTest/cypress-example-kitchensink/blob/master/cypress-docs/run-settings.md)
-* [Download Artefact For Cypress Project](https://github.com/LambdaTest/cypress-example-kitchensink/blob/master/cypress-docs/download-artefacts.md)
-* [Integrate LambdaTest With Cypress Dashboard](https://github.com/LambdaTest/cypress-example-kitchensink/blob/master/cypress-docs/cypress-dashboard.md)
-* [Execute Cypress Tests Including Private Dependencies](https://github.com/LambdaTest/cypress-example-kitchensink/blob/master/cypress-docs/dependencies.md)
-* [Applitools Integration For Cypress](https://github.com/LambdaTest/cypress-example-kitchensink/blob/master/cypress-docs/applitools-integration.md)
-* [ReportPortal.io Integration With LambdaTest For Cypress](https://github.com/LambdaTest/cypress-example-kitchensink/blob/master/cypress-docs/reportportalio-integration.md)
-***
+* [Cypress Parallel Testing](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/parallel-testing.md)
+* [Specify Browsers And OS](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/supported-browsers-os.md)
+* [Supported Cypress Versions](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/supported-cypress-versions.md)
+* [Cypress CLI Commands](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/cypress-cli.md)
+* [Run Settings](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/run-settings.md)
+* [Download Artefact For Cypress Project](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/download-artefacts.md)
+* [Integrate LambdaTest With Cypress Dashboard](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/cypress-dashboard.md)
+* [Execute Cypress Tests Including Private Dependencies](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/dependencies.md)
+* [Applitools Integration For Cypress](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/applitools-integration.md)
+* [ReportPortal.io Integration With LambdaTest For Cypress](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/reportportalio-integration.md)
+
 
 ## Pre-requisites
 
----
+Before we get started, make sure to clone the LambdaTest Cypress Cloud Repo. You can run your first Cypress test on the LambdaTest platform in a few simple steps:
 
-Before we get started, make sure to clone the [LambdaTest's sample Cypress Kitchen Sink repo](https://github.com/LambdaTest/cypress-example-kitchensink), used in this document. You can run your first Cypress test on the LambdaTest platform in a few simple steps:
-
-- **Step 1:** Clone the `LambdaTest-Cypress` kitchen sink example Github repo and navigate to the cloned directory.
+- **Step 1:** Clone the LambdaTest-Cypress Cloud repo and navigate to the cloned directory.
 
   ```bash
-  git clone https://github.com/LambdaTest/cypress-example-kitchensink
-  cd cypress-example-kitchensink
+  git clone https://github.com/LambdaTest/Cypress-Cloud
+  cd Cypress-Cloud
   ```
 
 - **Step 2: Installing the LambdaTest CLI -**
@@ -52,16 +66,16 @@ Before we get started, make sure to clone the [LambdaTest's sample Cypress Kitch
   ```bash
   lambdatest-cypress init
   ```
-## Running Your First Cypress Test On LambdaTest Platform
-***
+## Running Your First Cypress Test On LambdaTest
 
-To demonstrate Cypress testing on the LambdaTest platform, we will use the Cypress’ Kitchen Sink example in the demo below.
 
-1.  Clone the [LambdaTest-Cypress’ kitchen sink example](https://github.com/LambdaTest/cypress-example-kitchensink) github repo and switch to the cloned directory.
+>**Test Scenario**: To demonstrate Cypress testing on LambdaTest, we will use the Cypress Kitchen Sink Example.
+
+1.  Clone the LambdaTest Cypress Cloud GitHub repo and switch to the cloned directory.
 
 ```bash
-git clone https://github.com/cypress-io/cypress-example-kitchensink.git
-cd cypress-example-kitchensink
+git clone https://github.com/LambdaTest/Cypress-Cloud
+cd Cypress-Cloud
 ```
 
 2.  Setup the **LambdaTest-Cypress CLI** and configure the configuration file, as shown in the pre-requisites before. A file named `lambdatest-config.json` is generated in your project using the below command:
@@ -71,12 +85,6 @@ lambdatest-cypress init
 ```
 
 Here, we have used the below configuration as default and generated it in the `lambdatest-config.json` file. You need to set up the authentication by using LambdaTest credentials. You can check the [Authentication documentation](https://www.lambdatest.com/support/docs/authentication) for more details about authentication.
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs className="docs__val">
-  <TabItem value="config" label="lambdatest-config.json" default>
 
 ```json
 {
@@ -114,9 +122,6 @@ import TabItem from '@theme/TabItem';
 }
 ```
 
-  </TabItem>
-</Tabs>
-
 Also in `run-settings` section you need to specify the path of your `spec.js` file on which you want to run the test on. Here we will pass the path of a **sample to do** spec.js file for our demo.
 
 ```json
@@ -131,10 +136,10 @@ Also in `run-settings` section you need to specify the path of your `spec.js` fi
 lambdatest-cypress run
 ```
 
-## View Your Cypress Testing Result On LambdaTest Platform
----
+## View Your Cypress Testing Result
 
-As soon as the tests starts executing, you can view them running. Just visit your LambdaTest Automation Dashboard.
+
+As soon as the tests starts executing, you can view them running. Visit your LambdaTest Automation Dashboard.
 
 
 <img height="400" src="https://user-images.githubusercontent.com/70570645/169592614-d41ad246-32c5-46e1-935c-6f0101f467e6.png">
@@ -146,8 +151,8 @@ If the test gets executed successfully, you will see a green tick on the Timelin
 <img height="400" src="https://user-images.githubusercontent.com/70570645/169593512-94f845b7-3bcc-40f8-a5c1-0c9ab872e3ff.png">
 
 
-## Running Your Cypress Tests Locally On LambdaTest Platform
----
+## Running Your Cypress Tests Locally
+
 
 To run your tests locally on the LambdaTest platform, you need to setup LambdaTest tunnel, and execute commands using the CLI, or [download UnderPass](https://downloads.lambdatest.com/underpass/master/UnderPass%20Setup.exe), our GUI based desktop app. Once you have the LambdaTest tunnel or Underpass set up and started, you can use the LambdaTest platform to run your Cypress tests locally.
 
@@ -163,7 +168,7 @@ Now you need to activate the tunnel capability in the lambdatest_config.json fil
 You can provide the name of the **LambdaTest tunnel** as per your requirements.
 
 ## Authentication
-***
+
     
 Authenticate your Cypress test runs in the following ways -
 
@@ -176,8 +181,6 @@ Authenticate your Cypress test runs in the following ways -
 CLI arguments > Options set in lambdatest-config.json > Environment variables
 
 ### Utilizing CLI Params:
-
----
 
 The following args can be used while running tests using the run command.
 
@@ -193,8 +196,6 @@ For example -
 ```
 
 ### Using lambdatest-config.json:
-
----
 
 The auth option will help you in specifying your username and access key. You can find your username and access key in the [LambdaTest Automation Dashboard](https://automation.lambdatest.com/build). Both, the auth credentials set in environment variables and the ones mentioned in the lambdatest-config.json file will get overridden.
       
@@ -219,8 +220,6 @@ For example -
 
 ### Setup the Environment Variables:
 
----
-
 While utilizing the CLI params, you can set up the following environment variables.
 
 | Env variable  | Accepted values            |
@@ -244,22 +243,68 @@ set LT_USERNAME="YOUR_USERNAME" set LT_ACCESS_KEY="YOUR ACCESS KEY"
       
 > **Note** - By doing so, the auth credentials you use in your lambdatest-config.json file will get overridden only if these options are not provided in lambdatest-config.json.<br>
 
-## LambdaTest Community :busts_in_silhouette:
-***
-The [LambdaTest Community](https://community.lambdatest.com/) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe.
+
+## Tutorials 📙
+
+Check out our latest tutorials on Cypress automation testing 👇
+
+* [Cypress Vs Selenium: Which is Better in 2022?](https://www.lambdatest.com/blog/cypress-vs-selenium-comparison/)
+* [Introduction to Cypress Test Automation Framework](https://www.lambdatest.com/blog/cypress-test-automation-framework/)
+* [Scalable and Reliable Cross Browser Testing with Cypress](https://www.lambdatest.com/blog/cross-browser-testing-with-cypress-framework/)
+* [Now Run Your Cypress Tests on LambdaTest](https://www.lambdatest.com/blog/cypress-cli-on-lambdatest/)
+* [How to Perform Cypress Testing at Scale with LambdaTest](https://www.lambdatest.com/blog/how-to-perform-cypress-testing-at-scale-with-lambdatest/)
+* [Complete Guide to Cypress Visual Regression Testing](https://www.lambdatest.com/blog/cypress-visual-regression-testing/)
+* [How to Fill and Submit Forms in Cypress](https://www.lambdatest.com/blog/fill-and-submit-forms-in-cypress/)
+* [How to Find HTML Elements Using Cypress Locators](https://www.lambdatest.com/blog/finding-html-elements-using-cypress-locators/)
+* [Handling Touch and Mouse Events in Cypress [Tutorial]](https://www.lambdatest.com/blog/handling-touch-and-mouse-events-in-cypress/)
+* [How to Find Broken Links using Cypress [With Examples]](https://www.lambdatest.com/blog/find-broken-links-using-cypress/)
+* [Web Performance Testing with Cypress and Google Lighthouse](https://www.lambdatest.com/blog/using-cypress-google-lighthouse-performance-testing/)
+
+For video tutorials on Cypress testing, please refer to our [Cypress Testing Tutorial Playlist](https://www.youtube.com/playlist?list=PLZMWkkQEwOPnxrxi544nL1vdC1noooXPx). ▶️
+
+Subscribe To Our [LambdaTest YouTube Channel 🔔](https://www.youtube.com/c/LambdaTest) and keep up-to-date on the latest video tutorial around Cypress.
 
 ## Documentation & Resources :books:
-***
+
       
-If you want to learn more about the LambdaTest's features, setup, and usage, visit the [LambdaTest documentation](https://www.lambdatest.com/support/docs/). You can also find in-depth tutorials around test automation, mobile app testing, responsive testing, manual testing on [LambdaTest Blog](https://www.lambdatest.com/blog/) and [LambdaTest Learning Hub](https://www.lambdatest.com/learning-hub/).     
+Visit the following links to learn more about LambdaTest's features, setup and tutorials around test automation, mobile app testing, responsive testing, and manual testing.
+
+* [LambdaTest Documentation](https://www.lambdatest.com/support/docs/?utm_source=github&utm_medium=repo&utm_campaign=cypress-cloud)
+* [LambdaTest Blog](https://www.lambdatest.com/blog/?utm_source=github&utm_medium=repo&utm_campaign=cypress-cloud)
+* [LambdaTest Learning Hub](https://www.lambdatest.com/learning-hub/?utm_source=github&utm_medium=repo&utm_campaign=cypress-cloud)    
+
+## LambdaTest Community :busts_in_silhouette:
+
+The [LambdaTest Community](https://community.lambdatest.com/) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe 🌎
+
+## What's New At LambdaTest ❓
+
+To stay updated with the latest features and product add-ons, visit [Changelog](https://changelog.lambdatest.com/) 
       
 ## About LambdaTest
-***
-[LambdaTest](https://www.lambdatest.com) is a leading test execution and orchestration platform that is fast, reliable, scalable, and secure. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations. Using LambdaTest, businesses can ensure quicker developer feedback and hence achieve faster go to market. Over 500 enterprises and 1 Million + users across 130+ countries rely on LambdaTest for their testing needs.    
+
+[LambdaTest](https://www.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=cypress-cloud) is a leading test execution and orchestration platform that is fast, reliable, scalable, and secure. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations. Using LambdaTest, businesses can ensure quicker developer feedback and hence achieve faster go to market. Over 500 enterprises and 1 Million + users across 130+ countries rely on LambdaTest for their testing needs.    
+
+### Features
+
+* Run Selenium, Cypress, Puppeteer, Playwright, and Appium automation tests across 3000+ real desktop and mobile environments.
+* Real-time cross browser testing on 3000+ environments.
+* Test on Real device cloud
+* Blazing fast test automation with HyperExecute
+* Accelerate testing, shorten job times and get faster feedback on code changes with Test At Scale.
+* Smart Visual Regression Testing on cloud
+* 120+ third-party integrations with your favorite tool for CI/CD, Project Management, Codeless Automation, and more.
+* Automated Screenshot testing across multiple browsers in a single click.
+* Local testing of web and mobile apps.
+* Online Accessibility Testing across 3000+ desktop and mobile browsers, browser versions, and operating systems.
+* Geolocation testing of web and mobile apps across 53+ countries.
+* LT Browser - for responsive testing across 50+ pre-installed mobile, tablets, desktop, and laptop viewports
+
     
-[<img height="70" src="https://user-images.githubusercontent.com/70570645/169649126-ed61f6de-49b5-4593-80cf-3391ca40d665.PNG">](https://accounts.lambdatest.com/register)
+[<img height="70" width="220" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
+
       
 ## We are here to help you :headphones:
-***
+
 * Got a query? we are available 24x7 to help. [Contact Us](support@lambdatest.com)
-* For more info, visit - https://www.lambdatest.com
+* For more info, visit - [LambdaTest](https://www.lambdatest.com/?utm_source=github&utm_medium=repo&utm_campaign=cypress-cloud)
